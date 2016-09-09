@@ -1,0 +1,48 @@
+\input{config}
+
+\begin{document}
+  \input{title}
+  \input{tz}
+  \input{referat}
+
+  % - оглавление
+ \newpage
+ \ESKDstyle{plain}
+ \tableofcontents
+
+ \newpage
+ \ESKDstyle{plain}
+ \setcounter{figure}{0}
+ \section{Введение}
+ \input{intro}
+ \newpage
+ \section{Обзор манипулятора}
+ \input{manipulator}
+ \newpage
+ \setcounter{figure}{0}
+ \section{Обзор ARDUINO}
+ \input{arduino}
+ \newpage
+ \setcounter{figure}{0}
+ \section{Обзор OPENCV}
+ \input{opencv}
+ \newpage
+ \setcounter{figure}{0}
+ \newpage
+ \section{Алгоритм работы программ}
+ \subsection{Алгори работы поиска предметов}
+ \input{alopencv}
+ \subsection{Алгоритм управления манипулятором}
+ \input{alarduino}
+ \section{Испытания}
+ \input{text}
+ \newpage
+ \section{Заключение}
+ \input{conclusion}
+ \newpage
+ \section*{Список используемых источников}
+ \addcontentsline{toc}{section}{Список используемых источников}
+ \input{literature}
+ \input{add0}
+ \newpage
+ \end{document}
