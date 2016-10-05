@@ -1,5 +1,5 @@
 \documentclass[14pt]{eskdtext}
-\usepackage[nooneline]{caption} \captionsetup[table]{justification=raggedright} \captionsetup[figure]{justification=centering,labelsep=endash} 
+%\usepackage[nooneline]{caption} \captionsetup[table]{justification=raggedright} \captionsetup[figure]{justification=centering,labelsep=endash}
 \usepackage[numbertop, numbercenter]{eskdplain}
 \usepackage[utf8x]{inputenc}
 \usepackage{listings}
@@ -14,9 +14,9 @@
 \def\@biblabel#1{#1 }
 
 % - Точки для всех пунктов в оглавлении
-\renewcommand*{\l@section}{\@dottedtocline{1}{1.5em}{2.3em}}
-\renewcommand*{\l@subsection}{\@dottedtocline{1}{1.5em}{2.3em}}
-\renewcommand*{\l@subsubsection}{\@dottedtocline{1}{1.5em}{2.3em}}
+\renewcommand*{\l@section}{\@dottedtocline{1}{1.5em}{1.2em}}
+\renewcommand*{\l@subsection}{\@dottedtocline{1}{2.3em}{1.9em}}
+\renewcommand*{\l@subsubsection}{\@dottedtocline{1}{3.1em}{1.8em}}
 
 % - Для переопределения списков
 \renewcommand{\theenumi}{\arabic{enumi}}
